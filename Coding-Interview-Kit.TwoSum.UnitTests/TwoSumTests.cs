@@ -110,5 +110,18 @@ namespace Coding_Interview_Kit.TwoSum.UnitTests
             Assert.IsFalse(twoSum.Find(0));
         }
 
+        [TestMethod]
+        public void TwoSum_Find_With_Max_Values_Expect_True_For_Existing_Sum()
+        {
+            var twoSum = new TwoSum();
+            twoSum.Add(int.MaxValue);
+            twoSum.Add(int.MaxValue);
+            twoSum.Add(1);
+            twoSum.Add(5);
+            twoSum.Add(3);
+
+            Assert.IsTrue(twoSum.Find(4));
+        }
+
     }
 }
