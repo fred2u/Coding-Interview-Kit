@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding-Interview-Kit.TwoSum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding-Interview-Kit.TwoSum.UnitTests", "Coding-Interview-Kit.TwoSum.UnitTests\Coding-Interview-Kit.TwoSum.UnitTests.csproj", "{BF699D32-397D-429D-B7DD-E53476C54C25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding-Interview-Kit.ValidSudoku", "Coding-Interview-Kit.ValidSudoku\Coding-Interview-Kit.ValidSudoku.csproj", "{08DB1805-2683-4195-84E8-80563865AA3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding-Interview-Kit.ValidSudoku.UnitTests", "Coding-Interview-Kit.ValidSudoku.UnitTests\Coding-Interview-Kit.ValidSudoku.UnitTests.csproj", "{C0D460EB-0411-4376-B5A3-B38D899CB06E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BF699D32-397D-429D-B7DD-E53476C54C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF699D32-397D-429D-B7DD-E53476C54C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF699D32-397D-429D-B7DD-E53476C54C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08DB1805-2683-4195-84E8-80563865AA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DB1805-2683-4195-84E8-80563865AA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DB1805-2683-4195-84E8-80563865AA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DB1805-2683-4195-84E8-80563865AA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D460EB-0411-4376-B5A3-B38D899CB06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D460EB-0411-4376-B5A3-B38D899CB06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D460EB-0411-4376-B5A3-B38D899CB06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D460EB-0411-4376-B5A3-B38D899CB06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
